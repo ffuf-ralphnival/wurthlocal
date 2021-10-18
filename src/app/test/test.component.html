@@ -1,0 +1,8 @@
+<div class="test">
+  <div class="sidebar">
+    test
+  </div>
+  <div class="content">
+    <iframe [src]="frameContent" id="testIframe" #tagName (load)="loadFrame(tagName)"></iframe>
+  </div>
+</div>
